@@ -1,0 +1,23 @@
+# Django core
+Django>=4.2,<5.0
+
+# Django REST framework
+djangorestframework>=3.15,<4.0
+
+# Environment variable management
+python-dotenv>=1.0,<2.0
+
+# HTTP requests (for ORS API)
+requests>=2.31,<3.0
+
+# Optional: CORS headers if you host frontend separately
+django-cors-headers>=4.0,<5.0
+
+# For timezone-aware datetime handling
+pytz>=2023.3,<2024.0
+
+# Gunicorn (for deployment)
+gunicorn>=21.2,<22.0
+
+# If you use PostgreSQL (optional, default is sqlite3)
+psycopg2-binary>=2.9,<3.0

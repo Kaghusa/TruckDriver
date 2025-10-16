@@ -81,6 +81,13 @@ CORS_ALLOWED_ORIGINS = [
     "https://truck.bkaffi.com"
 ]
 
+ALLOWED_HOSTS = [
+    '.localhost',
+    '127.0.0.1',
+    '[::1]',
+    'truck-service.bkaffi.com',  # <-- Add this line
+]
+
 WSGI_APPLICATION = 'service.wsgi.application'
 
 
